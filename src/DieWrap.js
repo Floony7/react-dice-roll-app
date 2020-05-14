@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const DieWrap = styled.div`
-  width: 50vw;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: nowrap;
+  width: 20vw;
+  margin: 0 auto;
+  height: 200px;
+  transform: translateY(30vh);
 `

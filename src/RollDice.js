@@ -2,6 +2,23 @@ import React, { useState } from "react"
 import Die from "./Die"
 import { faDiceFour, faDiceFive, faDiceSix, faDiceOne, faDiceThree, faDiceTwo } from "@fortawesome/free-solid-svg-icons"
 import { DieWrap } from "./DieWrap"
+import styled from "styled-components"
+
+const Button = styled.button`
+  display: block;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: none;
+  background-color: green;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    background-color: teal;
+  }
+`
 
 const numbersInWords = [faDiceOne, faDiceTwo, faDiceThree, faDiceFour, faDiceFive, faDiceSix]
 
@@ -21,7 +38,7 @@ const RollDice = (props) => {
     <DieWrap>
       <Die roll={roll} />
       <Die roll={roll2} />
-      <button onClick={rollDice}>Roll Dice</button>
+      <Button onClick={rollDice}>Roll Dice</Button>
     </DieWrap>
   )
 }
