@@ -6,17 +6,23 @@ import styled from "styled-components"
 
 const Button = styled.button`
   display: block;
-  width: 12rem;
+  width: 17rem;
   padding: 0.5rem;
-  border-radius: 5px;
   margin-top: 1rem;
   border: none;
   background-color: green;
   color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
   transition: all 0.4s ease-in-out;
 
   &:hover {
     background-color: teal;
+    border: none;
+  }
+
+  &:active {
+    border: none;
   }
 `
 

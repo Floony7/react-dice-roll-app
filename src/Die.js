@@ -10,7 +10,7 @@ const DieStyles = styled.div`
 const Die = ({ roll }) => {
   return (
     <DieStyles>
-      <FontAwesomeIcon icon={roll} color="purple" size="3x" />
+      <FontAwesomeIcon icon={roll} color="purple" size="9x" />
     </DieStyles>
   )
 }

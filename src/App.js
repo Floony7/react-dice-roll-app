@@ -16,11 +16,7 @@ function App() {
   } */
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          <RollDice />
-        </h1>
-      </header>
+      <RollDice />s
     </div>
   )
 }
