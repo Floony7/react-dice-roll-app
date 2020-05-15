@@ -47,16 +47,16 @@
     transform-origin: 50% 50%;
   }
   15% {
-    -webkit-transform: translateX(-30px) rotate(-6deg);
-    transform: translateX(-30px) rotate(-6deg);
+    -webkit-transform: translateX(-30px) rotate(-15deg);
+    transform: translateX(-30px) rotate(-15deg);
   }
   30% {
-    -webkit-transform: translateX(15px) rotate(6deg);
-    transform: translateX(15px) rotate(6deg);
+    -webkit-transform: translateX(15px) rotate(20deg);
+    transform: translateX(15px) rotate(20deg);
   }
   45% {
-    -webkit-transform: translateX(-15px) rotate(-3.6deg);
-    transform: translateX(-15px) rotate(-3.6deg);
+    -webkit-transform: translateX(-15px) rotate(-18deg);
+    transform: translateX(-15px) rotate(-18deg);
   }
   60% {
     -webkit-transform: translateX(9px) rotate(2.4deg);

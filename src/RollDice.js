@@ -44,7 +44,7 @@ const RollDice = (props) => {
       setRoll(selectedNum)
       setRoll2(selectedNum2)
       setIsRolling(false)
-    }, 1000)
+    }, 800)
   }
   return (
     <DieWrap>
